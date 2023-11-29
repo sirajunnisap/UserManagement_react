@@ -35,7 +35,11 @@ function Login() {
                         <div className="signIn-image">
                             <figure>
                                 <img src={process.env.PUBLIC_URL + "/images/signin-image.jpg"} alt="sing up image" />
-                            </figure>
+                            </figure> 
+                            
+                            <div className="notregisterd ">
+                                <p > Not registered? </p>
+                               
                             <a
                                 href="#"
                                 onClick={() => {
@@ -45,6 +49,8 @@ function Login() {
                             >
                                 Create an account
                             </a>
+                            </div>
+                            
                         </div>
 
                         <div className="signIn-form">
@@ -67,7 +73,7 @@ function Login() {
                                 </div>
                                 <div className="form-group">
                                     <label for="your_pass">
-                                        <i className="zmdi zmdi-lock"></i>
+                                        <i className="zmdi zmdi-lock material-icons-name"></i>
                                     </label>
                                     <input
                                         type="password"
@@ -80,7 +86,7 @@ function Login() {
                                         placeholder="Password"
                                     />
                                 </div>
-                                <div className="form-group form-button">
+                                <div className="form-button">
                                     <input type="submit" name="signIn" id="signIn" className="form-submit" value="Log in" />
                                 </div>
                                 {ErrMsg.length > 0 && (

@@ -4,7 +4,9 @@ import UserRegister from "../../Components/clients/Login/Register";
 function Register() {
     return (
         <div>
+
             <UserRegister />
+            
         </div>
     );
 }

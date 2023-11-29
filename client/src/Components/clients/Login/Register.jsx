@@ -50,7 +50,7 @@ function UserRegister() {
                                 </div>
                                 <div className="form-group">
                                     <label for="email">
-                                        <i className="zmdi zmdi-email"></i>
+                                        <i className="zmdi zmdi-email material-icons-name"></i>
                                     </label>
                                     <input
                                         type="email"
@@ -65,7 +65,7 @@ function UserRegister() {
                                 </div>
                                 <div className="form-group">
                                     <label for="pass">
-                                        <i class="fa-sharp fa-solid fa-address-book"></i>
+                                        <i class="fa-sharp fa-solid fa-address-book material-icons-name"></i>
                                     </label>
                                     <input
                                         type="text"
@@ -80,7 +80,7 @@ function UserRegister() {
                                 </div>
                                 <div className="form-group">
                                     <label for="re-pass">
-                                        <i className="zmdi zmdi-lock-outline"></i>
+                                        <i className="zmdi zmdi-lock material-icons-name"></i>
                                     </label>
                                     <input
                                         type="password"
@@ -93,12 +93,12 @@ function UserRegister() {
                                         placeholder="Enter your Password"
                                     />
                                 </div>
-                                <div className="form-group form-button">
+                                <div className="form-button">
                                     <input
                                         type="submit"
                                         name="signUp"
                                         id="signUp"
-                                        className="form-submit"
+                                        className="form-submit form-submit-Register"
                                         value="Register"
                                     />
                                 </div>

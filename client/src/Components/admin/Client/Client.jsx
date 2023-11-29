@@ -89,7 +89,7 @@ function ClientTable() {
                                 Search
                             </button>
                         </form>
-                    </div>
+                    </div>  
                 </nav>
             </div>
             <table className="table">
